@@ -51,7 +51,7 @@ public class Login extends JFrame {
 	 */
 	public Login() throws SQLException {
 		
-		Connection myCon = DriverManager.getConnection("jdbc:mysql://localhost:3306/Restaurant", "root", "walter");
+		Connection myCon = 
 		Statement myStatement = myCon.createStatement();
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

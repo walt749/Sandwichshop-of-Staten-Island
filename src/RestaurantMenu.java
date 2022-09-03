@@ -68,7 +68,7 @@ public class RestaurantMenu extends JFrame {
 	 */
 	public RestaurantMenu(Customer customer) throws SQLException {
 		
-		Connection myCon = DriverManager.getConnection("jdbc:mysql://localhost:3306/Restaurant", "root", "walter");
+		Connection myCon = 
 		Statement myStatement = myCon.createStatement();
 		
 		double cheese,chicken, turkey, sausage, eggsalad, ham;
